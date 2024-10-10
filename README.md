@@ -1,8 +1,6 @@
-
 # Weather Application ☁️
 
 This Android app fetches and displays real-time weather data for a specified city using the OpenWeatherMap API. The user can input a city name, and the app will retrieve the current temperature and weather description.
-
 
 ## Features
 
@@ -10,11 +8,12 @@ This Android app fetches and displays real-time weather data for a specified cit
 - Displays temperature (in Celsius) and a brief weather description.
 - User-friendly interface for fetching weather data.
 
-
 ## 🚀 About Me
+
 🔭 I’m currently working on My Data Science Skills.
 🌱 I’m currently learning Data Analytics, Machine Learning.
 💬 Ask me about Front-end Development, React, Python, Databases.
+
 ## Run Locally
 
 Clone the project
@@ -41,6 +40,7 @@ Create a gradle.properties file (or modify the existing one) in the android dire
   WEATHER_API_KEY="your_api_key_here"
 
 ```
+
 ## API Reference
 
 #### Get current weather for a city
@@ -49,14 +49,14 @@ Create a gradle.properties file (or modify the existing one) in the android dire
   GET /data/2.5/weather?q={city}&appid={api_key}
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `city`|`string` | **Required**. Name of the city|
-| `api_key` | `string` | **Required**. Your OpenWeatherMap API key|
+| Parameter | Type     | Description                               |
+| :-------- | :------- | :---------------------------------------- |
+| `city`    | `string` | **Required**. Name of the city            |
+| `api_key` | `string` | **Required**. Your OpenWeatherMap API key |
 
 #### Get item
 
 ```http
-    GET /data/2.5/weather?q=London&appid=your_api_key
+  GET /data/2.5/weather?q=London&appid=your_api_key
 
 ```
